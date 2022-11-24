@@ -1,10 +1,10 @@
 %global olm_version 3.2.13
-%global commit 71f16b797fe47eb4d8ef64166d94942b6aa61da4
+%global commit 68e9d6e9818bd9b781be43a2e2b9759251c5975e
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 
 
 Name     : gomuks
-Version  : 0.2.4
+Version  : 0.3.0
 Release  : %{commit}
 URL      : https://github.com/tulir/gomuks
 Source0  : https://github.com/tulir/gomuks/archive/%{commit}/%{name}-%{shortcommit}.tar.gz
